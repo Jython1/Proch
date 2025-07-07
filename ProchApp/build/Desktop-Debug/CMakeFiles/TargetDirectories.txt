@@ -1,0 +1,5 @@
+/home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/CMakeFiles/ProchApp.dir
+/home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/CMakeFiles/ProchApp_autogen_timestamp_deps.dir
+/home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/CMakeFiles/ProchApp_autogen.dir

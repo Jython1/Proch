@@ -1,0 +1,116 @@
+/* Base styling for all QWidget elements - sets the foundation dark theme */
+QWidget {
+    background-color: #121212;  /* Very dark gray background */
+    color: #E0E0E0;            /* Light gray text color */
+    font-family: "Segoe UI", "Roboto", "Arial", sans-serif;  /* Modern font stack */
+    font-size: 14px;           /* Standard readable font size */
+}
+
+/* Styling for a specific QLabel with ID "imageLogo" - likely a company/app logo */
+QLabel#imageLogo {
+    margin: 20px;              /* Adds 20px spacing around the logo */
+}
+
+/* Push button styling - creates modern orange buttons with rounded corners */
+QPushButton {
+    background-color: #FF6D00;  /* Bright orange background */
+    color: #FFFFFF;            /* White text */
+    border-radius: 15px;       /* Rounded corners */
+    padding: 10px 20px;        /* Internal spacing (top/bottom 10px, left/right 20px) */
+    font-weight: 600;          /* Semi-bold text */
+    border: none;              /* Removes default border */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);  /* Subtle drop shadow for depth */
+}
+
+/* Button hover state - lighter orange when mouse hovers over */
+QPushButton:hover {
+    background-color: #FF8C00;  /* Lighter orange on hover */
+}
+
+/* Button pressed state - darker orange when clicked */
+QPushButton:pressed {
+    background-color: #E65100;  /* Darker orange when pressed */
+}
+
+/* Line edit (text input) styling - dark input fields with rounded corners */
+QLineEdit {
+    background-color: #1F1F1F;  /* Dark gray background */
+    border: 1px solid #333;     /* Dark border */
+    border-radius: 12px;        /* Rounded corners */
+    padding: 8px 12px;          /* Internal padding */
+    color: #FFFFFF;             /* White text */
+    selection-background-color: #FF6D00;  /* Orange highlight when text is selected */
+}
+
+/* Combo box (dropdown) styling - matches the dark theme */
+QComboBox {
+    background-color: #1F1F1F;  /* Dark gray background */
+    color: #FFFFFF;             /* White text */
+    border-radius: 10px;        /* Rounded corners */
+    padding: 6px 12px;          /* Internal padding */
+    border: 1px solid #333;     /* Dark border */
+}
+
+/* Combo box dropdown list styling - ensures dropdown matches theme */
+QComboBox QAbstractItemView {
+    background-color: #1F1F1F;  /* Dark background for dropdown items */
+    selection-background-color: #FF6D00;  /* Orange selection highlight */
+    color: #FFFFFF;             /* White text */
+    border-radius: 8px;         /* Rounded corners for dropdown */
+}
+
+/* Tab widget pane - removes default borders from tab content area */
+QTabWidget::pane {
+    border: none;               /* No border around tab content */
+}
+
+/* Individual tab styling - creates rounded dark tabs */
+QTabBar::tab {
+    background: #1F1F1F;        /* Dark gray background */
+    color: #B0B0B0;             /* Light gray text for inactive tabs */
+    border-radius: 12px;        /* Rounded corners */
+    padding: 10px 20px;         /* Internal padding */
+    margin: 4px;                /* Space between tabs */
+}
+
+/* Selected tab styling - highlights active tab with orange */
+QTabBar::tab:selected {
+    background: #FF6D00;        /* Orange background for active tab */
+    color: white;               /* White text for active tab */
+}
+
+/* Tree widget and tree view styling - for hierarchical data display */
+QTreeWidget, QTreeView {
+    background-color: #1F1F1F;  /* Dark background */
+    color: #FFFFFF;             /* White text */
+    border: 1px solid #333;     /* Dark border */
+    border-radius: 10px;        /* Rounded corners */
+    selection-background-color: #FF6D00;  /* Orange selection highlight */
+    selection-color: #FFFFFF;   /* White text when selected */
+}
+
+/* Vertical scrollbar styling - creates minimal orange scrollbars */
+QScrollBar:vertical {
+    background: transparent;    /* Transparent background */
+    width: 10px;               /* Thin scrollbar width */
+}
+
+/* Scrollbar handle (the draggable part) - orange rounded handle */
+QScrollBar::handle:vertical {
+    background: #FF6D00;        /* Orange handle */
+    border-radius: 5px;         /* Rounded handle */
+}
+
+/* Removes the arrow buttons from scrollbars for cleaner look */
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;               /* Zero height hides the arrow buttons */
+}
+
+/* Text edit (multi-line text input) styling - dark themed text area */
+QTextEdit {
+    background-color: #1A1A1A;  /* Very dark background */
+    border-radius: 10px;        /* Rounded corners */
+    padding: 10px;              /* Internal padding */
+    color: #E0E0E0;             /* Light gray text */
+}
