@@ -1,4 +1,4 @@
-/home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/ProchApp_autogen/EWIEGA46WW/moc_productsWindow.cpp: /home/jython/Programming/Proch/productsWindow.h \
+/home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/ProchApp_autogen/EWIEGA46WW/moc_categorywindow.cpp: /home/jython/Programming/Proch/categorywindow.h \
   /home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/ProchApp_autogen/moc_predefs.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -313,13 +313,6 @@
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlDatabase \
-  /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlQuery \
-  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlerror.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquery.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsql-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \

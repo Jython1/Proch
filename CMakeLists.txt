@@ -17,6 +17,7 @@ endif()
 
 find_package(Qt5 REQUIRED COMPONENTS Widgets Sql)
 find_package(Qt5 REQUIRED COMPONENTS Widgets)
+find_package(Qt5 REQUIRED COMPONENTS Widgets)
 
 set(SOURCES
     main.cpp
@@ -35,7 +36,9 @@ set(HEADERS
 add_executable(ProchApp ${SOURCES} ${HEADERS}
     tabsystem.h tabsystem.cpp
     Themes/DefaultDark.qss
-    productsWindow.h productsWindow.cpp)
+    productsWindow.h productsWindow.cpp
+    categorywindow.h categorywindow.cpp)
 
 target_link_libraries(ProchApp Qt5::Widgets Qt5::Sql)
+
 

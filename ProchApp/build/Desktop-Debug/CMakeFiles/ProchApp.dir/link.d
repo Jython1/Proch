@@ -8,6 +8,7 @@ ProchApp: \
   CMakeFiles/ProchApp.dir/categorytree.cpp.o \
   CMakeFiles/ProchApp.dir/tabsystem.cpp.o \
   CMakeFiles/ProchApp.dir/productsWindow.cpp.o \
+  CMakeFiles/ProchApp.dir/categorywindow.cpp.o \
   /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 \
   /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.15.13 \
   /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 \
@@ -129,6 +130,8 @@ CMakeFiles/ProchApp.dir/categorytree.cpp.o:
 CMakeFiles/ProchApp.dir/tabsystem.cpp.o:
 
 CMakeFiles/ProchApp.dir/productsWindow.cpp.o:
+
+CMakeFiles/ProchApp.dir/categorywindow.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13:
 

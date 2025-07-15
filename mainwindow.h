@@ -12,6 +12,7 @@
 #include <QTextEdit>
 #include "categorytree.h"
 #include <QMenuBar>
+#include "categorywindow.h"
 #include "tabsystem.h"
 #include "productsWindow.h"
 
@@ -50,6 +51,7 @@ private:
     CategoryTree *categoryTree;
     QMenuBar *menuBar;
     productsWindow *prodWindow;
+    CategoryWindow *categoryWindow;
 };
 
 #endif // MAINWINDOW_H

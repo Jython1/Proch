@@ -9,7 +9,7 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
-    LoadStyleSheet("/home/jython/Programming/ProchApp/Themes/DefaultDark.qss");//TODO: ADD GETTING DIR PATH
+    LoadStyleSheet("/home/jython/Programming/ProchApp/Themes/DefaultDark.qss");
     CreateMenu();
     setupUI();
     setupLogo();
@@ -49,12 +49,12 @@ void MainWindow::setupUI()
 
 }
 
+
 void MainWindow::createMainTab()
 {
     QWidget *mainTab = new QWidget();
     QVBoxLayout *tabLayout = new QVBoxLayout(mainTab);
 
-    // Search layout
     QHBoxLayout *searchLayout = new QHBoxLayout;
     searchString = new QLineEdit(mainWidget);
     searchButton = new QPushButton("Поиск", mainWidget);
@@ -131,9 +131,9 @@ void MainWindow::onSearchClicked()
 
 void MainWindow::onEditCategoriesClicked()
 {
-    QTextEdit *categoriesTab = new QTextEdit();
-    categoriesTab->setText("Редактор категорий");
-    tabSystem->AddTab(categoriesTab, "Редактор категорий");
+    categoryWindow = new CategoryWindow();
+    categoryWindow->setAttribute(Qt::WA_DeleteOnClose);
+    categoryWindow->show();
 }
 
 void MainWindow::onImportCategoriesClicked()

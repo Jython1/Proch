@@ -399,6 +399,7 @@ CMakeFiles/ProchApp.dir/mainwindow.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenu.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h \
+  /home/jython/Programming/Proch/categorywindow.h \
   /home/jython/Programming/Proch/tabsystem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTabWidget \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QMap \

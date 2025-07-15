@@ -369,16 +369,18 @@ CMakeFiles/ProchApp.dir/ProchApp_autogen/mocs_compilation.cpp.o: \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
-  /home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/ProchApp_autogen/EWIEGA46WW/moc_mainwindow.cpp \
-  /home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/ProchApp_autogen/EWIEGA46WW/../../../../../mainwindow.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
+  /home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/ProchApp_autogen/EWIEGA46WW/moc_categorywindow.cpp \
+  /home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/ProchApp_autogen/EWIEGA46WW/../../../../../categorywindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+  /home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/ProchApp_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+  /home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/ProchApp_autogen/EWIEGA46WW/../../../../../mainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \

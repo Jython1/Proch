@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProchApp.dir/ProchApp_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/ProchApp.dir/categorytree.cpp.o"
   "CMakeFiles/ProchApp.dir/categorytree.cpp.o.d"
+  "CMakeFiles/ProchApp.dir/categorywindow.cpp.o"
+  "CMakeFiles/ProchApp.dir/categorywindow.cpp.o.d"
   "CMakeFiles/ProchApp.dir/main.cpp.o"
   "CMakeFiles/ProchApp.dir/main.cpp.o.d"
   "CMakeFiles/ProchApp.dir/mainwindow.cpp.o"

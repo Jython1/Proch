@@ -1,6 +1,7 @@
 /home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/ProchApp_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/jython/Programming/Proch/mainwindow.h \
   /home/jython/Programming/Proch/ProchApp/build/Desktop-Debug/ProchApp_autogen/moc_predefs.h \
   /home/jython/Programming/Proch/categorytree.h \
+  /home/jython/Programming/Proch/categorywindow.h \
   /home/jython/Programming/Proch/productsWindow.h \
   /home/jython/Programming/Proch/tabsystem.h \
   /usr/include/asm-generic/errno-base.h \
